@@ -10,18 +10,15 @@
     grid-template-rows: 50px 100vh auto;
 }
 
-.encabezado {
-    background: #00cc99;
+.encabezado {    
     grid-area: encabezado;
     
 }
 .contenido {
-    background:#ff8080;
     grid-area: contenido;
 }
 
-.rodapie { 
-    background: #0099ff;
+.rodapie {     
     grid-area:rodapie;
     
 }
