@@ -24,14 +24,25 @@
 }
 
 
-@media only screen and (min-width: 600px) {
-   
+@media only screen and (min-width: 601px) and (max-width:900px) {
+ .contenido {
+    display:flex;
+    flex-wrap: wrap;
+ }
+ .populares__card {
+  justify-content: center;
+   margin-bottom: 3rem;
+   width: 40%;
+ }
+
+  
+
    
 }
 
 
 @media only screen and (min-width: 768px) {
-    
+ 
 }
 @media only screen and (min-width: 992px) {
 }
